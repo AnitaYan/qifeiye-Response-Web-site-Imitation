@@ -1,0 +1,103 @@
+@charset 'UTF-8';
+
+/*------------
+    header
+-------------*/
+
+@media screen and (max-width:960px){
+	header .topbar .logo{
+		float:none;
+		text-align:center;
+	}
+	header .topbar nav{
+		display:none;
+	}
+	header .topbar .topbar-r{
+		position: absolute;
+		top:50%;
+		margin-top:-7px;
+		right:20px;
+	}
+	header .topbar .topbar-r #login{
+		display:none;	
+	}
+	header .topbar .topbar-r .register{
+		display:none;	
+	}
+	header .topbar .topbar-r .menu i{
+		display:block;
+	}
+	header .banner .mark .mark-r{
+		display:none;
+	}
+	header .banner video{
+		height:500px;
+	}
+	header .banner .mark .mark-l{
+		display:block;
+	}
+	/*------------
+		main
+	-------------*/
+	.main section .media .img{
+		display:block;
+	}
+	.main section .media .video-box{
+		display:none;
+	}
+	/*------------
+		main sec2-sec5
+	-------------*/
+	.main .sec .text{
+		width:100%;
+	}
+	.main .sec .media{
+		width:100%;
+	}
+	.main .sec .media img{
+		max-width:100%;
+	}
+	/*----sec7 --*/
+	.main .sec7{
+		display:none;
+	}
+	/*----sec8 --*/
+	.main .sec8 ul.media li{	
+		width:100%;
+		/* border:none; */
+	}
+	/*----sec10 --*/
+	.main .sec10 ul.media{
+		flex-wrap:wrap;
+	}
+	.main .sec10 ul.media li{
+		width:50%;
+	}
+	.main .sec12{
+		display:none;
+	}
+	/*----sec13 --*/
+	.main .text .hotline{
+		float:none;
+	}
+	.main .text .time{
+		float:none;
+	}
+	/*----sec15 --*/
+	.main .sec15 .about .sec_r{
+		display:none;
+	}
+	.right_nav_bar{
+		display:none;
+	}
+}
+@media screen and (max-width:760px){
+	.main section .text h3{
+		font-size:20px;
+	}
+	.main section .text p{
+		font-size:12px;
+		line-height:2;
+	}
+	
+}
